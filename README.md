@@ -8,5 +8,9 @@ Our song was “O corpo é que paga”, which means “Is the body who suffers�
 
 To develop this application, we divide the team into three main responsibilities (Back-end / Full Stack / Front-end), with two members in each, to take advantage of the best skill of each member, but always helping each other when needed.
 
+<STRONG>IMPORTANT NOTES:</STRONG> 
+ - This is a mobile App, so you´ll need to shrink your window to access our app.
+ - The "30m" button is set to 2 seconds intentionally for testing purposes.
+
 <h2> Technologies: </h2>
 The technologies used on this project were <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b> and the project management methodologies were <b>SCRUM</b>, with briefing each 2h to keep everyone updated and to make decisions about tasks not completed on the established time.
