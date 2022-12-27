@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpo'EQuePaga</title>
+    <link rel="icon" type="image/x-icon" href="/Resources/scissors.png">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="full">
+        <img src="/Resources/error.png" alt="Antonio Variaçoes">
+        <p>"Algo de errado não está certo." <br> <br>
+        Please collapse your window to access our app.</p>
+    </div>
+
+    <div class="wrapper">
+
+    <div class="header">
+        <img src="Resources/logo.png" alt="logo" style="width:150px">
+    </div>
+
+    <div class="hero">
+        <div id="left">
+            <h1>Are you willing to <span>let your body pay?</span></h1>
+            <h2>For you to be happy and as free as you should.</h2>
+            <p>Because when the head won't break free of frustrations, inhibitions. All that force that squeezes you, we are here to help!</p>
+            <button> <a href="team.html">Meet the team</a></button>
+           <button> <a href="#mid">Take me down!</a></button>
+        </div>
+        <div id="right">
+            <img src="Resources/main-img.png" alt="man dancing" style="max-width: 600px;">
+        </div>
+    </div>
+
+    <hr>
+
+ <div class="container timeContainer" id="mid">
+    <img src="/Resources/relax.png" alt="man in bathtube" id="bath">
+<div id="timebtn">
+    <button class="tbtn halfHour">30m</button>
+    <button class="tbtn oneHours">1h</button>
+    <button class="tbtn twoHours">2h</button>
+    <button class="tbtn threeHours">3h</button>
+</div>
+
+<div class="timer">
+    <span class="timer__part timer__part--hours">00</span>
+    <span class="timer__part">:</span>
+    <span class="timer__part timer__part--minutes">00</span>
+    <span class="timer__part">:</span>
+    <span class="timer__part timer__part--seconds">00</span>
+</div>
+</div> 
+
+    <div class="popup-container">
+
+        <div id="audio"></div>
+
+            <div class="popup" id="popup">
+                <h1> Time to enjoy your <span>break!</span></h1>
+                <p id="exerc"></p>
+                <p>or</p>
+                <p id="activ"></p>
+                <button id="closeBtn" type="button">Ok, on my way to unwind! </button>
+                <button id="shuffle" type="button">Shuffle</button>
+            </div>
+    </div>
+</div>
+
+<div class="donate-container">
+    <button> <a href="donate.html">Liked the page? Help us by donating!</a></button>
+</div>
+
+<script src="js/main.js" type="module"></script>
+<script src="js/popupcontents.js" type="module"></script>
+</body>
+</html>
